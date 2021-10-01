@@ -285,5 +285,5 @@ const updateTotal = () => {
   console.log(grandTotal);
   document.getElementById("total").innerText = grandTotal.toFixed(2);
 };
-updateTotal();
+
 loadProducts();
